@@ -5,8 +5,8 @@ draw_text((room_width /2),(room_height/ room_height) + 20,global.pontos)
 
 
 if global.morto{
-	draw_shake_text(room_width + 200,room_height / 2,3,"Você MORREU!! \n Aperte 'R' para tentar de novo.")
-	
+	draw_shake_text((room_width/2) + 90,room_height / 2,2,"Você MORREU!! \n Aperte 'R' para tentar de novo.")
+
 }
 
 draw_set_valign(-1)

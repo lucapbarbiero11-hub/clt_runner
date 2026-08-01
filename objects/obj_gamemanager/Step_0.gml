@@ -2,7 +2,7 @@ if !global.morto{
 if canshoot{
 alarm[0] = 60
 canshoot = false
-
+alarm[1] = 60
 }
 }else
 {
